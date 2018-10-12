@@ -1,0 +1,99 @@
+@media screen and (max-width:759px){
+	header{
+		background-color:#3b5998;
+		height:110px;
+	}
+	.off, .admissions, .f_menu{
+		display: none;
+	}
+	.logo{
+		margin-top:30px;
+		float:left;
+	}
+	.mob_menu{
+		float:right;	
+		margin:45px 15px 0px 0px;	
+	}
+	.mob_menu:hover{
+		cursor:pointer;
+	}
+	.mob_menu_link{
+		display:none;
+		position:absolute;
+		right:15px;
+		top:72px;
+	}
+	.mob_menu_link ul li{
+		background-color:#FFF;
+		margin-bottom:1px;
+		padding:10px 0px;
+		text-align:center;
+	}
+	.mob_menu_link ul li a{
+		padding:10px 15px;
+		text-decoration:none;
+	}
+	.mob_menu_link ul li:hover{
+		opacity:0.9;
+	}
+	.mob_menu_link ul li a:hover{
+		color:#3b5998;
+	}
+	.main_article, .second_article{
+		width:80%;
+		margin:auto;
+	}
+	.top_sec{
+		margin-top:10px !important;
+	}
+	.article1 section, .second_article section{
+		width:100%;
+		float:left;
+		margin-top:40px;
+	}
+	.article1 section h3 img, .second_article section h3 img{
+		width:100%;
+	}
+	.article1 section p, .second_article section p{
+		padding:5%;
+		box-shadow: 1px 2px 3px #ccc;
+		line-height:150%;
+		color:#666;
+		font-size:15px;
+	}
+	.r_space{
+		margin-right:2%;
+	}
+	.top_sec1{
+		margin-top:30px !important;
+	}
+	.v_img{
+		display:none;
+	}
+	.d_vit_l{
+		margin-top:50px;
+	}
+	.d_vit_r{
+		margin-top:50px;
+	}
+	.d_vit_l img{
+		width:100%;
+	}
+	iframe{
+		width:250px;
+	}
+	.sf_img img{
+		width:250px;
+	}
+	.d_vit_r h3 ul li{
+		float:left;
+		margin-right:10px;
+	}
+	.d_vit_r h3 ul li img{
+		width:40px;
+	}
+	.fb img{
+		width:37px !important;
+		height:37px !important;
+	}
+}
